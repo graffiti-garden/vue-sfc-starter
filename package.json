@@ -1,0 +1,23 @@
+{
+  "name": "@graffiti-garden/vue-sfc-starter",
+  "description": "Vue SFC starter template for Graffiti projects",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "author": "Theia Henderson",
+  "dependencies": {
+    "@graffiti-garden/api": "^1.0.4",
+    "@graffiti-garden/implementation-local": "^1.0.4",
+    "@graffiti-garden/wrapper-vue": "^1.0.4",
+    "vite-plugin-node-polyfills": "^0.2.0",
+    "vue": "^3.5.25",
+    "vue-router": "^4.2.8"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^6.0.3",
+    "@vue/typescript-plugin": "^3.2.0",
+    "vite": "^7.3.0"
+  }
+}
